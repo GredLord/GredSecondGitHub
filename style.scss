@@ -1,0 +1,93 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .banner {
+        height: 500px;
+        background-image: url(./banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+
+        .about-sign-in {
+            height: 80px;
+            width: 100%;
+            text-align: right;
+
+            .about,
+            .sign-in {
+                text-decoration: none;
+                padding: 12px 15px;
+                margin-top: 30px;
+                display: inline-block;
+                text-transform: uppercase;
+            }
+
+            .sign-in {
+                margin-right: 60px;
+                margin-left: 25px;
+                color: limegreen;
+                border-radius: 20px;
+                border: 1px solid limegreen;
+            }
+
+        }
+
+
+        .logo-hapo {
+            height: 100px;
+            background: url(./hapoERP.png) center center no-repeat;
+            margin-top: 30px;
+        }
+
+        .content-center {
+
+            .left,
+            .center,
+            .right {
+                width: 33%;
+                display: inline-block;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                display: block;
+                font-size: 20px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-start-now {
+            text-align: center;
+
+            button {
+                text-transform: uppercase;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 1px solid black;
+                margin-top: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
